@@ -1,0 +1,5 @@
+- name: Tangr.In
+  picture: http://placehold.it/150x150
+  summary: The <strong>original</strong> Tangr.In<br>No fancy, just performant
+  price: 99€
+  color: danger

@@ -1,0 +1,15 @@
+---
+title: Find the Tangr.In Pad that suits you
+---
+
+<div class="container" id="pricing">
+  <div class="row">
+    <h1>Why we buil the Tangr.In Pad ? </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem optio amet dignissimos obcaecati reiciendis quo iste. Quas, nam voluptas rerum eveniet fugit natus optio asperiores mollitia, ex aliquid quia tenetur!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem optio amet dignissimos obcaecati reiciendis quo iste. Quas, nam voluptas rerum eveniet fugit natus optio asperiores mollitia, ex aliquid quia tenetur!</p>
+
+    <% data.pens.each do |pen| %>
+      <%= partial(:pen, locals: {pen: pen}) %>
+    <% end %>
+  </div>
+</div>
